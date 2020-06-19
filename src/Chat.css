@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.chat-window ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-window ul li {
+    padding: 20px;
+    background: #2c2c2c;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.msg-author {
+    color: gray;
+    margin-left: 10px;
+}
+
+.prof-pic {
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    border-radius: 5px;
+}
+
+.overlay {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: auto;
+    position: fixed;
+    background: rgba(0,0,0,0.5);
+    z-index: 1010;
+}
+
+.overlay .overlay-form {
+    position: absolute;
+    left: calc(50% - 120px);
+    background: #313131;
+    width: 170px;
+    top: 35%;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.overlay form label span {
+    color: #ff3f18;
+    font-family: "Arial";
+    font-size: 1.5em;
+}
+
+.input-id {
+    background: gray;
+    border: none;
+}
+
+.submit-id {
+    font-family: "Arial";
+    margin-top: 5px;
+    font-size: 1em;
+    background: #111111;
+    color: #ff3f18;
+    border: none;
+    border-radius: 5px;
+}
+
+.loader {
+    display: block;
+    margin: auto;
+}
+
+.load-final {
+    text-align: center;
+}
+
+.check, .error {
+    width: 15%;
+}
+
+.load-final div {
+    color: white;
+}
+
+.hidden {
+    display: none;
+}
